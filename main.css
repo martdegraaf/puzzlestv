@@ -1,1 +1,41 @@
+body {background-color:#CCFFFF;
+margin-top:0px;}
 
+container {margin-left:auto;
+margin-right:auto;
+width:1000px;} 
+     
+kop {margin:5px;
+padding:30px;
+background-color: #46C7C7;
+height:50px;
+width:960px;} 
+     
+logo {margin-left:auto;
+margin-right:auto;
+width:230px;}
+      
+menuknoppen {margin:5px;
+padding:10px;
+height:30px;
+width:1000px;
+background-color:#8EEBEC;
+float:left;} 
+     
+inhoud {margin:5px;
+padding:10px;
+width:1000px;
+height:750px;
+background-color:#E0FFFF;
+overflow:auto;
+float:left;} 
+     
+onderbalk {margin:5px;
+padding:5px;
+width:1000px;
+background-color:#46C7C7;
+float:left;} 
+     
+ul {position: fixed;
+    top: 0;
+    width: 100%;}
