@@ -1,42 +1,69 @@
 
- body {background-color:#CCFFFF;
- margin-top:0px;}
+body {
+ background-color:#CCFFFF;
+ margin: 0px;
+ padding: 0px;
+}
  
- container {margin-left:auto;
+#container {
+ margin-left:auto;
  margin-right:auto;
- width:1000px;} 
+ width:1000px;
+} 
       
- kop {margin:5px;
+#kop {
+ position: relative;
  padding:30px;
  background-color: #46C7C7;
  height:50px;
- width:960px;} 
+ width:960px;
+}
+#kop ul{
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+#kop ul a{
+    background-color: #46c7c7;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+#kop ul a:hover{
+    background-color: #418AC9;
+}
       
- logo {margin-left:auto;
+#logo {
+ margin-left:auto;
  margin-right:auto;
- width:230px;}
+ width:230px;
+}
        
- menuknoppen {margin:5px;
+#menuknoppen {
+ margin:5px;
  padding:10px;
  height:30px;
  width:1000px;
  background-color:#8EEBEC;
  float:left;} 
       
- inhoud {margin:5px;
+#inhoud {
  padding:10px;
  width:1000px;
  height:750px;
- background-color:#E0FFFF;
+ background-color: #E0FFFF;
  overflow:auto;
- float:left;} 
+ float:left;
+} 
       
- onderbalk {margin:5px;
- padding:5px;
- width:1000px;
- background-color:#46C7C7;
- float:left;} 
-      
- ul {position: fixed;
-     top: 0;
-    width: 100%;}
+#onderbalk {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  width:1000px;
+  background-color: #46C7C7;
+  float:left;
+} 
